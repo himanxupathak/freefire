@@ -12,7 +12,7 @@
     <!-- registration form -->
  
     <div class="container">
-        <form action="./success.html" class="form" data-netlify="true">
+        <form name="register" method="POST" action="./success.html" class="form" data-netlify="true">
             <div class="heading">
                 <h1>Registration Form</h1>
                 <div class="border"></div>
@@ -21,36 +21,37 @@
                 <div class="f1">
                     
                     <label for="name">Name<span style="color:#ff0000">*</span></label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" id="name" name="name" required>
                     <span class="focus-input"></span>
                 </div>
                 <div class="f2">
-                    <label for="name">UID<span style="color:#ff0000">*</span></label>
+                    <label for="uid">UID<span style="color:#ff0000">*</span></label>
                     <input type="text" id="uid" name="uid" required>
                     <span class="focus-input"></span>
                 </div>
             </div>
             <div class="wrap2">
                 <label for="username">Username<span style="color:#ff0000">*</span></label>
-                <input type="text" name="username" id="username" required>
+                <input type="text" id="username" name="username" required>
                 <span class="focus-input2"></span>
             </div>
             <div class="wrap2">
-                <label for="username">Email</label>
+                <label for="email">Email</label>
                 <input type="text" name="email" id="" >
                 <span class="focus-input2"></span>
             </div>
             <div class="wrap2">
-                <label for="username">Location<span style="color:#ff0000">*</span></label>
+                <label for="location">Location<span style="color:#ff0000">*</span></label>
                 <input type="text" name="location" id="location" required>
                 <span class="focus-input2"></span>
             </div>
             <div class="btn-cont">
-                <button type="submit" class="btnn"> Register</button>
+                <button class="btnn" type="submit" > Register </button>
                 <span>OR</span>
-                <button class="btnn" > <a href="./playteam.html">Play In Team</a></button>
+                <button class="btnn" type="submit" > <a href="./playteam.html">Play Team</a></button>
             </div>
         </form>
+         
         <div class="image">
             <img class="img" src="./freefire6.png" alt="">
         </div>
