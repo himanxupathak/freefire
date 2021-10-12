@@ -224,14 +224,14 @@ input{
 
 }
 .btnn{
+    font-size: 1rem;
     margin: 10px;
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     border-radius: 40px;
     outline: none;
     font-weight: 500;
     border: none;
-    font-size: 1rem;
     background: #445a94;
     color: #afff;
     box-shadow: 0 0 20px #00000070;
